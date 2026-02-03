@@ -7,4 +7,4 @@
 6. the Load unpacked button in chrome will prompt you for you the location of the folder you are loooking to install select the unzipped folder
 7. Then BOOM you have just added the extention.
 
-## If any issues or features arise, please let me know this is open source software free to use!
+## If any issues or features arise, please let me know through issues. This is open source software free to use!
