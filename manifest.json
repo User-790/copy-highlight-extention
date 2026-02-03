@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Section Highlighter",
+  "version": "1.0",
+  "description": "Highlight sections on hover and copy with ALT+C toggle",
+  "permissions": ["activeTab", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
